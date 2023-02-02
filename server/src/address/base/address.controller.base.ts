@@ -215,7 +215,6 @@ export class AddressControllerBase {
     const results = await this.service.findCustomers(params.id, {
       ...query,
       select: {
-        nickname: true,
         id: true,
         createdAt: true,
         updatedAt: true,

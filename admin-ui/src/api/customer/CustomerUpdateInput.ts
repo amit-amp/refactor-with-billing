@@ -2,7 +2,6 @@ import { OrderUpdateManyWithoutCustomersInput } from "./OrderUpdateManyWithoutCu
 import { AddressWhereUniqueInput } from "../address/AddressWhereUniqueInput";
 
 export type CustomerUpdateInput = {
-  nickname?: string | null;
   firstName?: string | null;
   lastName?: string | null;
   email?: string | null;

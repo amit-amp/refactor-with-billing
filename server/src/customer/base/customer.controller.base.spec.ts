@@ -19,7 +19,6 @@ import { CustomerService } from "../customer.service";
 const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
-  nickname: "exampleNickname",
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
@@ -29,7 +28,6 @@ const CREATE_INPUT = {
   phone: "examplePhone",
 };
 const CREATE_RESULT = {
-  nickname: "exampleNickname",
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),
@@ -40,7 +38,6 @@ const CREATE_RESULT = {
 };
 const FIND_MANY_RESULT = [
   {
-    nickname: "exampleNickname",
     id: "exampleId",
     createdAt: new Date(),
     updatedAt: new Date(),
@@ -51,7 +48,6 @@ const FIND_MANY_RESULT = [
   },
 ];
 const FIND_ONE_RESULT = {
-  nickname: "exampleNickname",
   id: "exampleId",
   createdAt: new Date(),
   updatedAt: new Date(),

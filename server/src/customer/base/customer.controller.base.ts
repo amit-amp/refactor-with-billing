@@ -59,7 +59,6 @@ export class CustomerControllerBase {
           : undefined,
       },
       select: {
-        nickname: true,
         id: true,
         createdAt: true,
         updatedAt: true,
@@ -92,7 +91,6 @@ export class CustomerControllerBase {
     return this.service.findMany({
       ...args,
       select: {
-        nickname: true,
         id: true,
         createdAt: true,
         updatedAt: true,
@@ -126,7 +124,6 @@ export class CustomerControllerBase {
     const result = await this.service.findOne({
       where: params,
       select: {
-        nickname: true,
         id: true,
         createdAt: true,
         updatedAt: true,
@@ -177,7 +174,6 @@ export class CustomerControllerBase {
             : undefined,
         },
         select: {
-          nickname: true,
           id: true,
           createdAt: true,
           updatedAt: true,
@@ -219,7 +215,6 @@ export class CustomerControllerBase {
       return await this.service.delete({
         where: params,
         select: {
-          nickname: true,
           id: true,
           createdAt: true,
           updatedAt: true,

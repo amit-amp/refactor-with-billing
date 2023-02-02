@@ -32,7 +32,6 @@ model Order {
 }
 
 model Customer {
-  nickname  String?
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

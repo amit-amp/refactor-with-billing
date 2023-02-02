@@ -2,7 +2,6 @@ import { OrderCreateNestedManyWithoutCustomersInput } from "./OrderCreateNestedM
 import { AddressWhereUniqueInput } from "../address/AddressWhereUniqueInput";
 
 export type CustomerCreateInput = {
-  nickname?: string | null;
   firstName?: string | null;
   lastName?: string | null;
   email?: string | null;
